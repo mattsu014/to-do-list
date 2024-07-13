@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E4ECFC;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title-todolist {
+    background-color: #AC7CEC;
+    height: 5rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-todolist header {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.body-todolist {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    height: auto;
+    width: 28rem;
+    padding: 1rem;
+}
+
+.list-todolist {
+    margin-bottom: 2rem;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.task p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    flex: 1;
+}
+
+.task img {
+    height: 1.2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+.task:hover img {
+    display: block;
+}
+.divButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-todolist {
+    background-color: #AC7CEC;
+    border: none;
+    padding: 10px;
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-bottom: -2.5rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    transition: transform 0.3s ease;
+}
+
+#button-todolist:hover {
+    transform: scale(1.1);
+    background-color: #c9a2fd;
+}
+
+.add-text {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+#title-add {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+#add-text {
+    border-radius: 10px;
+    width: 19rem;
+    height: 2rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.my-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-add,
+#button-cancel {
+    margin: 1rem 0.5rem 0rem 0.5rem;
+    background-color: #AC7CEC;
+    color: #E4ECFC;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#button-add:hover,
+#button-cancel:hover {
+    transform: scale(1.1);
+    background-color: #bd8aff;
+}
+
+.add-text {
+    margin-top: 3rem;
+}
+
+#github-logo {
+    height: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
